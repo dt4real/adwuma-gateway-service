@@ -1,5 +1,5 @@
-import { CurrentUser } from '@gateway/controllers/auth/current-user';
-import { Refresh } from '@gateway/controllers/auth/refresh-token';
+import { CurrentUser } from '@gateway/controllers/auth/current-user.controller';
+import { Refresh } from '@gateway/controllers/auth/refresh-token.controller';
 import { authMiddleware } from '@gateway/services/auth-middleware';
 import express, { Router } from 'express';
 
